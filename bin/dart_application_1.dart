@@ -23,6 +23,6 @@ void main() {
 // factorial();
 //armstrong();
 //fibanocci();
-armstrong_limit();
+armstronglimit();
 }
 

@@ -1,23 +1,24 @@
 import 'dart:io';
 
-void armstrong_limit()
+void armstronglimit()
 {
-  int sum=0;
+  
   print("enter upper and lower limit");
-  int up=int.parse(stdin.readLineSync()!);
-  int low=int.parse(stdin.readLineSync()!);
-  for(int i=low;i<=up;i++)
+  int a=int.parse(stdin.readLineSync()!);
+  int b=int.parse(stdin.readLineSync()!);
+  for(int i=a;i<=b;i++)
   {
     int temp=i;
-    while(i!=0)
+    int sum=0;
+    while(temp!=0)
     {
-      int rem=i%10;
+      int rem=temp%10;
       sum=sum+(rem*rem*rem);
-      i=i~/10;
+      temp=temp~/10;
     }
-    if(sum==temp)
+    if(sum==i)
     {
-      print(temp);
+      print(i);
     }
   }
-}
+  }
