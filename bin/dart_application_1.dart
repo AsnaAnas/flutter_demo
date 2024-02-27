@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'amstrong.dart';
 import 'factorial.dart';
+import 'fibanocci.dart';
 import 'gcd.dart';
 import 'largest.dart';
 import 'list.dart';
@@ -20,5 +21,6 @@ void main() {
  //gcd();
 // factorial();
 //armstrong();
+fibanocci();
 }
 
