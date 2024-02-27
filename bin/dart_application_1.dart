@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'amstrong.dart';
+import 'armstrong_range.dart';
 import 'factorial.dart';
 import 'fibanocci.dart';
 import 'gcd.dart';
@@ -21,6 +22,7 @@ void main() {
  //gcd();
 // factorial();
 //armstrong();
-fibanocci();
+//fibanocci();
+armstrong_limit();
 }
 
