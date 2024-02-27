@@ -19,6 +19,6 @@ void main() {
  //list();
  //gcd();
 // factorial();
-armstrong();
+//armstrong();
 }
 
