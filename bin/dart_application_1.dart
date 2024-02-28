@@ -8,6 +8,8 @@ import 'gcd.dart';
 import 'largest.dart';
 import 'list.dart';
 import 'oddeven.dart';
+import 'palindrome.dart';
+import 'prime.dart';
 import 'swap.dart';
 
 
@@ -19,10 +21,13 @@ void main() {
  //oddeven();
  //largest();
  //list();
- //gcd();
-// factorial();
+ //gcd(16,42);
+ //gcd_in();
+//factorial();
 //armstrong();
 //fibanocci();
-armstronglimit();
+//armstronglimit();
+//prime(); 
+print(palindrome());
 }
 
