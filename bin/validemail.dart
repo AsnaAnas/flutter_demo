@@ -1,0 +1,18 @@
+import 'dart:io';
+
+void validemail()
+{
+  print("Enter an email");
+  String email=stdin.readLineSync()!;
+    bool reg= RegExp(
+          r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$')
+      .hasMatch(email);
+      if(reg==true)
+      {
+        print("Email is valid");
+      
+      }
+      else{
+        print("Email is invalid");
+      }
+}

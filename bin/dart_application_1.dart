@@ -15,6 +15,8 @@ import 'prime_range.dart';
 import 'primecheck.dart';
 import 'reverselist.dart';
 import 'swap.dart';
+import 'validemail.dart';
+import 'vowelconst.dart';
 
 
 
@@ -36,6 +38,8 @@ void main() {
 //primecheck();
 //prime();
 //fibnoccin();
-reverselist();
+//reverselist();
+//vowelconst();
+validemail();
 }
 
