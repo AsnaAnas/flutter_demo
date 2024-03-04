@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'amstrong.dart';
 import 'armstrong_range.dart';
+import 'decbin.dart';
 import 'factorial.dart';
 import 'fibanocci.dart';
 import 'gcd.dart';
@@ -15,6 +16,7 @@ import 'prime_range.dart';
 import 'primecheck.dart';
 import 'reverselist.dart';
 import 'swap.dart';
+import 'swaplist.dart';
 import 'validemail.dart';
 import 'vowelconst.dart';
 
@@ -40,6 +42,8 @@ void main() {
 //fibnoccin();
 //reverselist();
 //vowelconst();
-validemail();
+//validemail();
+//dectobinary();
+swaplist();
 }
 
